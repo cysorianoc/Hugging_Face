@@ -16,3 +16,13 @@ As example there were used two models in the notebook:
 - blenderbot-400M-distill
 - Qwen3-0.6B
 
+
+## Notebook 2: Translation and Summarization
+
+Application of models to perform:
+- Translation: `nllb-200-distilled-600M`
+- Summarization: `bart-large-cnn` and `Falconsai`
+  
+*Note: one of the issues with pipelines is they do not work for summarization and translation when importing transformers library v5.0*
+
+
